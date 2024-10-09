@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickjacker Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 80vh; /* Adjust height as needed */
+            border: 2px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Clickjacker Test</h1>
+    <p>The following iframe is testing for clickjacking:</p>
+    <iframe id="testIframe" src=""></iframe>
+
+    <script>
+        // Replace this with the URL you want to test for clickjacking
+        const urlToTest = "https://bighello.in/cdn/wpm/ba83c77b0w327a473fp4badfd8bm97b5fd29m.js"; // Change this to the desired URL
+
+        document.getElementById('testIframe').src = urlToTest;
+    </script>
+</body>
+</html>
