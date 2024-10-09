@@ -16,7 +16,7 @@ Make sure you have Python 3 installed on your machine. You will also need to ins
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/ClickJacker.git
+   git clone https://github.com/Cyber-30/ClickJacker.git
    cd ClickJacker
 2. **Install the dependencies**
    ```bash
